@@ -9,6 +9,7 @@ describe('UserEntity Unit Tests', () => {
   // Hooks - Executado antes de cada teste
   beforeEach(() => {
     props = UserDataBuilder({});
+
     sut = new UserEntity(props);
   });
 
